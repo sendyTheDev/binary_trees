@@ -11,7 +11,7 @@
  *
  * Return: length of printed tree
  */
-__attribute__((unused))static int print_t(const binary_tree_t *tree, int offset, int depth, char **b)
+static int print_t(const binary_tree_t *tree, int offset, int depth, char **b)
 {
 	char d[6];
 	int width, left, right, is_left, i;
