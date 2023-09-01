@@ -49,6 +49,8 @@ size_t binary_tree_height(const binary_tree_t *tree);
 bst_t *bst_insert(bst_t **tree, int value);
 bst_t *array_to_bst(int *array, size_t size);
 void visitCurrentLevel(binary_tree_t *root, int level, void (*func)(int));
+binary_tree_t *binary_trees_ancestor(const binary_tree_t *first, const binary_tree_t *second);
+bst_t *bst_search(const bst_t *tree, int value);
 
 heap_t *heap_insert(heap_t **root, int value);
 #endif
